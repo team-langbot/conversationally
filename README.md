@@ -1,6 +1,6 @@
-# Conversationally
+# <img src="media/favicon.ico" alt="icon" width="32"/> Conversationally
 Conversationally is a AI based conversational tutor created by a team of five students of Masters in Data Science course at UC Berkeley as part of the final Capstone project. It leverages multiple NLP techniques to create a conversation centric approach to second language learning.
-## Materials
+## Project Artifacts
  Name|Type|Link
 -|-|-
 Deck|pdf| [capstone_presentation.pdf](media/capstone_presentation.pdf)
@@ -12,6 +12,7 @@ Web Application|Code Repo|[langbot-ui](https://github.com/team-langbot/langbot-u
 Content Classification Model|Code Repo|[content-classification](https://github.com/team-langbot/content-classification)
 Grammatical Error Correction Model|Code Repo|[model-gec](https://github.com/team-langbot/model_gec)
 Response Generation|Code Repo|[GPT](https://github.com/team-langbot/GPT)
+GEC - Intermediate Report|pdf|[GEC Experiments](BERT_based_Vanilla_Models-InitialExperiments_langbot_gec_plain_bert_experiments.pdf)
 
 # Team
 
@@ -99,9 +100,37 @@ Notebook|Description
 [mistral2.ipynb](https://github.com/team-langbot/GPT/blob/main/mistral2.ipynb) | Experiments with Mistral model.
 [langchain01.ipynb](https://github.com/team-langbot/GPT/blob/main/langchain01.ipynb) | Experiments with Langchain and agents.
 
+# Backend API
+We created AWS Lambdas that are invoked through AWS amplify APIs for inference calls on each of the three models. [Backend Code Repository](https://github.com/team-langbot/project-langbot-webapp) has the code for this.
+
 # Web Application
-[Backend API Code Repository](https://github.com/team-langbot/langbot-ui)
-[UI Code Repository](https://github.com/team-langbot/project-langbot-webapp)
+The code for our amplify based webapp is at [Webapp Code Repository](https://github.com/team-langbot/langbot-ui).
+
 ## References
-## Acknowledgments
-# Conclusion
+Below are the references we used during our project.
+
+Davidson, S., Yamada, A., Mira, P.F., Carando, A., Gutierrez, C.H., & Sagae, K. (2020). Developing NLP Tools with a New Corpus of Learner Spanish. International Conference on Language Resources and Evaluation.
+
+Kiros, R., Zhu, Y., Salakhutdinov, R., Zemel, R.S., Urtasun, R., Torralba, A., & Fidler, S. (2015). Skip-Thought Vectors. Neural Information Processing Systems.
+
+Conneau, A., Kiela, D., Schwenk, H., Barrault, L., & Bordes, A. (2017). Supervised Learning of Universal Sentence Representations from Natural Language Inference Data. ArXiv, abs/1705.02364.
+
+Cer, D.M., Yang, Y., Kong, S., Hua, N., Limtiaco, N., John, R.S., Constant, N., Guajardo-Cespedes, M., Yuan, S., Tar, C., Sung, Y., Strope, B., & Kurzweil, R. (2018). Universal Sentence Encoder. ArXiv, abs/1803.11175.
+
+Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. Conference on Empirical Methods in Natural Language Processing.
+
+Sun, X., Ge, T., Ma, S., Li, J., Wei, F., & Wang, H. (2022). A Unified Strategy for Multilingual Grammatical Error Correction with Pre-trained Cross-Lingual Language Model. International Joint Conference on Artificial Intelligence.
+
+Xue, L., Constant, N., Roberts, A., Kale, M., Al-Rfou, R., Siddhant, A., Barua, A., & Raffel, C. (2020). mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer. North American Chapter of the Association for Computational Linguistics.
+
+Fei, Y., Cui, L., Yang, S., Lam, W., Lan, Z., & Shi, S. (2023). Enhancing Grammatical Error Correction Systems with Explanations. Annual Meeting of the Association for Computational Linguistics.
+
+Muntsa Padró, Miguel Ballesteros, Héctor Martínez, and Bernd Bohnet. 2013. Finding Dependency Parsing Limits over a Large Spanish Corpus. In Proceedings of the Sixth International Joint Conference on Natural Language Processing, pages 942–946, Nagoya, Japan. Asian Federation of Natural Language Processing.
+
+Cañete, J.L., Chaperon, G., Fuentes, R., Ho, J., Kang, H., & P'erez, J. (2023). Spanish Pre-trained BERT Model and Evaluation Data. ArXiv, abs/2308.02976.
+
+[Spanish Grammatical Error Correction](https://diligent-raver-536.notion.site/Spanish-Grammatical-Error-Correction-88d0f0d1d090412baf4c52cdf87a0468)
+
+[A Simple Named Entity Recognition Model using BERT and Keras](https://github.com/datasci-w266/2021-fall-main/blob/f6387a405f307ddc576c363b8b7885869fe224d0/materials/Bert/BERT_T5_NER_2_3_030521.ipynb)
+
+[Lesson notebook 8 - Parsing](https://colab.research.google.com/github/datasci-w266/2023-fall-main/blob/master/materials/lesson_notebooks/lesson_8_Parsing.ipynb)
