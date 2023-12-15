@@ -101,7 +101,7 @@ Notebook|Description
 [langchain01.ipynb](https://github.com/team-langbot/GPT/blob/main/langchain01.ipynb) | Experiments with Langchain and agents.
 
 # Backend API
-We created AWS Lambdas that are invoked through AWS amplify APIs for inference calls on each of the three models. [Backend Code Repository](https://github.com/team-langbot/project-langbot-webapp) has the code for this.
+We created an AWS Lambda that acts as the backend for inference calls on each of the three models and is exposed as a single endpoint via API Gateway. [Backend Code Repository](https://github.com/team-langbot/project-langbot-webapp) holds the code for this. In particular, [index.py](https://github.com/team-langbot/project-langbot-webapp/blob/main/amplify/backend/function/projectlangbotapi/src/index.py) stores the code that orchestrates the model calls and parses the individual responses into the API response shown on the frontend. 
 
 # Web Application
 The code for our amplify based webapp is at [Webapp Code Repository](https://github.com/team-langbot/langbot-ui).
