@@ -101,7 +101,7 @@ Notebook|Description
 [langchain01.ipynb](https://github.com/team-langbot/GPT/blob/main/langchain01.ipynb) | Experiments with Langchain and agents.
 
 # Backend API
-We created an AWS Lambda that acts as the backend for inference calls on each of the three models and is exposed as a single endpoint via API Gateway. [Backend Code Repository](https://github.com/team-langbot/project-langbot-webapp) holds the code for this. In particular, [index.py](https://github.com/team-langbot/project-langbot-webapp/blob/main/amplify/backend/function/projectlangbotapi/src/index.py) stores the code that orchestrates the model calls and parses the individual responses into the API response shown on the frontend. 
+We created an AWS Lambda that acts as the backend for inference calls on each of the three models and is exposed as a single endpoint via API Gateway. [Backend Code Repository](https://github.com/team-langbot/project-langbot-webapp) holds the code for this. In particular, [index.py](https://github.com/team-langbot/project-langbot-webapp/blob/main/amplify/backend/function/projectlangbotapi/src/index.py) stores the code that orchestrates the model calls and parses the individual responses into the API response shown on the frontend.
 
 # Web Application
 The code for our amplify based webapp is at [Webapp Code Repository](https://github.com/team-langbot/langbot-ui) with [index.js](https://github.com/team-langbot/langbot-ui/blob/main/src/index.js) as the entry point for the app.
@@ -109,25 +109,29 @@ The code for our amplify based webapp is at [Webapp Code Repository](https://git
 ## References
 Below are the references we used during our project.
 
-Davidson, S., Yamada, A., Mira, P.F., Carando, A., Gutierrez, C.H., & Sagae, K. (2020). Developing NLP Tools with a New Corpus of Learner Spanish. International Conference on Language Resources and Evaluation.
+Northern Illinois University Center for Innovative Teaching and Learning. (2012). [Instructional scaffolding. In Instructional guide for university faculty and teaching assistants.](https://www.niu.edu/citl/resources/guides/instructional-guide/instructional-scaffolding-to-improve-learning.shtml) Retrieved from https://www.niu.edu/citl/resources/guides/instructional-guide
 
-Kiros, R., Zhu, Y., Salakhutdinov, R., Zemel, R.S., Urtasun, R., Torralba, A., & Fidler, S. (2015). Skip-Thought Vectors. Neural Information Processing Systems.
+[Long-Term Language Retention for Students of a Second Language: A Review of the Literature](https://repository.stcloudstate.edu/cgi/viewcontent.cgi?article=1039&context=ed_etds)
 
-Conneau, A., Kiela, D., Schwenk, H., Barrault, L., & Bordes, A. (2017). Supervised Learning of Universal Sentence Representations from Natural Language Inference Data. ArXiv, abs/1705.02364.
+Davidson, S., Yamada, A., Mira, P.F., Carando, A., Gutierrez, C.H., & Sagae, K. (2020). [Developing NLP Tools with a New Corpus of Learner Spanish](https://aclanthology.org/2020.lrec-1.894/). International Conference on Language Resources and Evaluation.
 
-Cer, D.M., Yang, Y., Kong, S., Hua, N., Limtiaco, N., John, R.S., Constant, N., Guajardo-Cespedes, M., Yuan, S., Tar, C., Sung, Y., Strope, B., & Kurzweil, R. (2018). Universal Sentence Encoder. ArXiv, abs/1803.11175.
+Kiros, R., Zhu, Y., Salakhutdinov, R., Zemel, R.S., Urtasun, R., Torralba, A., & Fidler, S. (2015). [Skip-Thought Vectors. Neural Information Processing Systems.](https://www.semanticscholar.org/paper/Skip-Thought-Vectors-Kiros-Zhu/6e795c6e9916174ae12349f5dc3f516570c17ce8)
 
-Reimers, N., & Gurevych, I. (2019). Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks. Conference on Empirical Methods in Natural Language Processing.
+Alexis Conneau, Douwe Kiela, Holger Schwenk, Loïc Barrault, and Antoine Bordes. 2017. [Supervised Learning of Universal Sentence Representations from Natural Language Inference Data](https://aclanthology.org/D17-1070/). In Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing, pages 670–680, Copenhagen, Denmark. Association for Computational Linguistics.
 
-Sun, X., Ge, T., Ma, S., Li, J., Wei, F., & Wang, H. (2022). A Unified Strategy for Multilingual Grammatical Error Correction with Pre-trained Cross-Lingual Language Model. International Joint Conference on Artificial Intelligence.
+Daniel Cer, Yinfei Yang, Sheng-yi Kong, Nan Hua, Nicole Limtiaco, Rhomni St. John, Noah Constant, Mario Guajardo-Cespedes, Steve Yuan, Chris Tar, Brian Strope, and Ray Kurzweil. 2018. [Universal Sentence Encoder for English](https://aclanthology.org/D18-2029/). In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, pages 169–174, Brussels, Belgium. Association for Computational Linguistics.
 
-Xue, L., Constant, N., Roberts, A., Kale, M., Al-Rfou, R., Siddhant, A., Barua, A., & Raffel, C. (2020). mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer. North American Chapter of the Association for Computational Linguistics.
+Nils Reimers and Iryna Gurevych. 2019. [Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks](https://aclanthology.org/D19-1410/). In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), pages 3982–3992, Hong Kong, China. Association for Computational Linguistics.
 
-Fei, Y., Cui, L., Yang, S., Lam, W., Lan, Z., & Shi, S. (2023). Enhancing Grammatical Error Correction Systems with Explanations. Annual Meeting of the Association for Computational Linguistics.
+Sun, Xin, Tao Ge, Shuming Ma, Jingjing Li, Furu Wei and Houfeng Wang. “[A Unified Strategy for Multilingual Grammatical Error Correction with Pre-trained Cross-Lingual Language Model](https://www.semanticscholar.org/paper/A-Unified-Strategy-for-Multilingual-Grammatical-Sun-Ge/05b90590b1ef911703d83399ea1ff5f01faa44d5).” International Joint Conference on Artificial Intelligence (2022).
 
-Muntsa Padró, Miguel Ballesteros, Héctor Martínez, and Bernd Bohnet. 2013. Finding Dependency Parsing Limits over a Large Spanish Corpus. In Proceedings of the Sixth International Joint Conference on Natural Language Processing, pages 942–946, Nagoya, Japan. Asian Federation of Natural Language Processing.
+Linting Xue, Noah Constant, Adam Roberts, Mihir Kale, Rami Al-Rfou, Aditya Siddhant, Aditya Barua, and Colin Raffel. 2021. [mT5: A Massively Multilingual Pre-trained Text-to-Text Transformer](https://aclanthology.org/2021.naacl-main.41/). In Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, pages 483–498, Online. Association for Computational Linguistics.
 
-Cañete, J.L., Chaperon, G., Fuentes, R., Ho, J., Kang, H., & P'erez, J. (2023). Spanish Pre-trained BERT Model and Evaluation Data. ArXiv, abs/2308.02976.
+Yuejiao Fei, Leyang Cui, Sen Yang, Wai Lam, Zhenzhong Lan, and Shuming Shi. 2023. [Enhancing Grammatical Error Correction Systems with Explanations](https://aclanthology.org/2023.acl-long.413). In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 7489–7501, Toronto, Canada. Association for Computational Linguistics.
+
+Muntsa Padró, Miguel Ballesteros, Héctor Martínez, and Bernd Bohnet. 2013. [Finding Dependency Parsing Limits over a Large Spanish Corpus](https://aclanthology.org/I13-1123/). In Proceedings of the Sixth International Joint Conference on Natural Language Processing, pages 942–946, Nagoya, Japan. Asian Federation of Natural Language Processing.
+
+Cañete, José Luis González, Gabriel Chaperon, Rodrigo Fuentes, Jou-Hui Ho, Hojin Kang and Jorge P'erez. "[Spanish Pre-trained BERT Model and Evaluation Data](https://www.semanticscholar.org/paper/Spanish-Pre-trained-BERT-Model-and-Evaluation-Data-Ca%C3%B1ete-Chaperon/79926aa63d4daee6af06a8e9a7c2480b31cb7ed9)." ArXiv abs/2308.02976 (2023): n. pag.
 
 [Spanish Grammatical Error Correction](https://diligent-raver-536.notion.site/Spanish-Grammatical-Error-Correction-88d0f0d1d090412baf4c52cdf87a0468)
 
