@@ -18,14 +18,14 @@ GEC - Intermediate Report|pdf|[GEC Experiments](BERT_based_Vanilla_Models-Initia
 
 <div style="display:flex; align-items:center; justify-content: center;">
   <div style="float: left;width: 33.33%;">
-    <img src="media/aastha.jpeg" alt="drawing" width="100" style="border-radius: 50px"/>
+    <img src="media/aastha.jpeg" alt="drawing" width="100px" style="border-radius: 100px"/>
     <div style="font-size:20">Aastha Khanna
     <a href="https://www.linkedin.com/in/aasthakh/"><img src="media/linkedin.png" width="32" style="background-color:white;border-radius: 16px"/></a>
     </div>
     <div>Aastha Khanna is a software development engineer at Amazon, currently working on Ring Virtual Security Guard security system.</div>
   </div>
   <div style="float: left;width: 33.33%;">
-  <img src="media/isabel.jpeg" alt="drawing" width="100" style="border-radius: 50px"/>
+  <img src="media/isabel.jpeg" alt="drawing" width="100px" style="border-radius: 100px"/>
 
   <div style="font-size:20">Isabel Chan
   <a href="https://www.linkedin.com/in/waitingchan/"><img src="media/linkedin.png" width="32" style="background-color:white;border-radius: 16px"/></a>
@@ -33,7 +33,7 @@ GEC - Intermediate Report|pdf|[GEC Experiments](BERT_based_Vanilla_Models-Initia
   <div>Isabel is a Data Engineer at , where she is involved in the ad measurement and support of various advertising products.</div>
   </div>
   <div style="float: left;width: 33.33%;">
-<img src="media/jess.jpeg" alt="drawing" width="100" style="border-radius: 50px"/>
+<img src="media/jess.jpeg" alt="drawing" width="100px" style="border-radius: 100px"/>
 
 <div style="font-size:20">Jess Matthews
 <a href="https://www.linkedin.com/in/jessmatth/"><img src="media/linkedin.png" width="32" style="background-color:white;border-radius: 16px"/></a>
@@ -44,7 +44,7 @@ GEC - Intermediate Report|pdf|[GEC Experiments](BERT_based_Vanilla_Models-Initia
 
 <div style="display:flex; align-items:center; justify-content: center;">
   <div style="width: 33.33%;">
-<img src="media/mon.jpeg" alt="drawing" width="100" style="border-radius: 50px"/>
+<img src="media/mon.jpeg" alt="drawing" width="100px" style="border-radius: 100px"/>
 
 <div style="font-size:20">Mon Young
 <a href="https://www.linkedin.com/in/mon-young-a510901/"><img src="media/linkedin.png" width="32" style="background-color:white;border-radius: 16px"/></a>
@@ -52,7 +52,7 @@ GEC - Intermediate Report|pdf|[GEC Experiments](BERT_based_Vanilla_Models-Initia
 <div>Mon Young founded ABiCO Capital Management, America branch. He presently directing the IT DevOps and Data Science divisions at Panasonic R&D Company of America.</div>
   </div>
   <div style="width: 33.33%;">
-<img src="media/ram.jpeg" alt="drawing" width="100" style="border-radius: 50px"/>
+<img src="media/ram.jpeg" alt="drawing" width="100px" style="border-radius: 100px"/>
 
 <div style="font-size:20">Ram Senthamarai
 <a href="https://www.linkedin.com/in/ramsenth/"><img src="media/linkedin.png" width="32" style="background-color:white;border-radius: 16px"/></a>
@@ -104,7 +104,7 @@ Notebook|Description
 We created an AWS Lambda that acts as the backend for inference calls on each of the three models and is exposed as a single endpoint via API Gateway. [Backend Code Repository](https://github.com/team-langbot/project-langbot-webapp) holds the code for this. In particular, [index.py](https://github.com/team-langbot/project-langbot-webapp/blob/main/amplify/backend/function/projectlangbotapi/src/index.py) stores the code that orchestrates the model calls and parses the individual responses into the API response shown on the frontend. 
 
 # Web Application
-The code for our amplify based webapp is at [Webapp Code Repository](https://github.com/team-langbot/langbot-ui).
+The code for our amplify based webapp is at [Webapp Code Repository](https://github.com/team-langbot/langbot-ui) with [index.js](https://github.com/team-langbot/langbot-ui/blob/main/src/index.js) as the entry point for the app.
 
 ## References
 Below are the references we used during our project.
